@@ -6,7 +6,7 @@ const Navigation = () => {
   const cart = useContext(CartContext);
   return (
     <div className="navigation">
-      <NavLink to="/">Products</NavLink>
+      <NavLink to="/">Nicholas Products</NavLink>
       <NavLink to="/cart">
         Cart <span>{cart.length}</span>
       </NavLink>
