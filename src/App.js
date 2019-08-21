@@ -18,6 +18,7 @@ function App() {
   };
 
   return (
+    <h1>TESTING TESTING ZEIT TWO THREE</h1>
     <ProductContext.Provider value={{ products, addItem }}>
       <CartContext.Provider value={cart}>
         <div className="App">
